@@ -1,6 +1,6 @@
-mod io;
+mod reader;
 
 fn main() {
-    let buf = io::read_vec_char();
+    let buf = reader::read_vec_char();
     println!("{:?}", buf);
 }
